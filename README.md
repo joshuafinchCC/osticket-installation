@@ -198,4 +198,4 @@ This tutorial covers some post-installation settings as well as some configurati
 
 <br/>
 
-<h3 align = "right">Next Tutorial - <a href = "">osTicket: Ticket Lifecycle Examples</a></h3>
+<h3 align = "right">Next Tutorial - <a href = "https://github.com/joshuafinchCC/osticket-examples">osTicket: Ticket Lifecycle Examples</a></h3>
