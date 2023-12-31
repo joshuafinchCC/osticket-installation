@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1 align="center">osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket. This tutorial assumes you have fully completed, installed, set up login credentials, and perform clean up on osTicket in your Virtual Machine environment via following the previous tutorial <a href ="https://github.com/ColtonTrauCC/osticket-prereqs">"osTicket - Prerequisites and Installation"</a><br />
+<h1 align="center">osTicket - Post-Installation Configuration</h1>
+This tutorial covers some post-installation settings as well as some configuration options for setting up your osTicket system. If you have not installed osTicket, check out my previous guide: <a href ="https://github.com/joshuafinchCC/osticket-prereqs">osTicket - Prerequisites and Installation</a><br />
 
 </br>
 
