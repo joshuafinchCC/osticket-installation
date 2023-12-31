@@ -140,23 +140,24 @@ This tutorial covers some post-installation settings as well as some configurati
 <p>
   
 <ul>
-  <li><b>Service Level Agreements</b> or SLA Plans provide a length of time for the ticket Administrator when the ticket is expected be CLOSED. They can also be designated to specific Departments or Help Topics</li>
+  <li><b>Service Level Agreements</b> or SLA's provide a length of time for the ticket Administrator when the ticket is expected to be CLOSED. They can also be designated to specific Departments or Help Topics</li>
   <li>In the <b>Admin Panel</b>, go to the <b>Manage</b> tab and drop down to <b>SLA</b> then click on <b>Add New SLA Plan</b></li>
   <ul>
-    <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/1ebc6fe9-aa95-4e52-9fd9-1ecd7724d3b9" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-    <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/cf8da66d-209b-40e6-a4f1-c99bbd102b3a" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+
+
+    
   </ul>
   <li>osTicket by default has the SLA Plan <b>Default SLA</b>. We will be creating three SLA Plans each with their own length of time for different kinds of importance of the ticket, from highest priority to lowest priority:</li>
   <ol>
-    <li>SEV-A with <b>1 hour Grace Period, 24/7 Schedule</b>, suitable for tickets that are business critical</li>
-    <li>SEV-B with <b>4 hour Grace Period, 24/7 Schedule</b>, suitable for tickets affecting employees such as troubleshooting or PC problems</li>
-    <li>SEV-C with <b>8 hour Grace Period, business hours Schedule</b>, suitable for tickets requesting new equipment</li>
+    <li>SEV-A with <b>1 hour Grace Period, 24/7 Schedule</b>, for tickets that are business critical (high business impact)</li>
+    <li>SEV-B with <b>4 hour Grace Period, 24/7 Schedule</b>, for tickets affecting employees such as troubleshooting or PC problems (medium business impact)</li>
+    <li>SEV-C with <b>8 hour Grace Period, business hours Schedule</b>, suitable for tickets requesting new equipment or general inquiries (low impact)</li>
   </ol>
-  <li>Example of creating SEV-A SLA Plan, click on <b>Add Plan</b> to create the SLA Plan</li>
-  <ul>
-    <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/ee7d6fbb-f67a-4055-aa9b-b9fd77d48de1" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
   </ul>
-</ul>
+
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-installation/assets/155266044/a44aaf88-adc1-475e-af58-7da5d89de06c" height="80%" width="60%" />
+   </p>
   
 </p>
 
@@ -171,7 +172,11 @@ This tutorial covers some post-installation settings as well as some configurati
   <li>In the <b>Admin Panel</b>, go to the <b>Manage</b> tab and click on <b>Add New Help Topic</b></li>
   <ul>
     <li><b>Note</b>: osTicket creates four Help Topics (Feedback, General Inquiry, Report a Problem, and Report a Problem / Access Issue) by default</li>
-    <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/27299450-a705-462c-a7d0-6fcdac6f5a59" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+
+<p align="center">
+        <img src=https://github.com/joshuafinchCC/osticket-installation/assets/155266044/77206a23-eb25-4d3e-90a6-f79a26ee119d" height="80%" width="60%"/>
+   </p>
+  
   </ul>
   <li>We will create four different Help Topics based on the potential serverity a ticket could have, from highest to lowest priority:</li>
   <ol>
