@@ -97,49 +97,39 @@ This tutorial covers some post-installation settings as well as some configurati
         <img src="https://github.com/joshuafinchCC/osticket-installation/assets/155266044/0c588bb2-016a-472b-b781-7724881a3abb" height="80%" width="60%" />
    </p>
 </p>
-
 </br>
-
 <h3>Adding Agents and Users</h3>
-
 <p>
-  
-<ul>
+  <ul>
   <li><b>Agents</b> (or Workers) are given the access to the help desk in osTicket to respond, resolve, and update the status of tickets</li>
   
   <ul>
     <li>In the <b>Admin Panel</b>, head to the <b>Agents</b> tab and click on <b>Add New Agent</b></li>
     <ul>
-      <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/d66757f0-54d1-458f-8a2d-4f1890b2da1d" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
     </ul>
-    <li>For this tutorial, we will be creating two new Agents <b>Jane</b> and <b>John</b>, it is advise to have a notepad ready to catalog login information as you enter their credentials, but we will set their user names as <b>[name].doe</b> and both of their passwords as <b>Password1</b> for convenience (which is our admin password from the installation tutorial)</li>
+    <li>For this tutorial, we will be creating our best agent: <b>Determination</b>. Remember their login information as you enter their credentials, and we will set their user name as <b>[name].smith</b> as well as their password as <b>Password1</b> for convenience (which is our admin password from the installation tutorial)</li>
     <ul>
-      <li>Fill in the Agent's basic info and set the Agent's email address as <b>[name].doe@osticket.com</b> and click on <b>Set Password</b></li>
-      <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/06fbd1ca-9d97-4f4f-b866-9b304dbdeb57" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-      <li>Set the Agent's password to <b>Password1</b> and unchecked the boxes to prevent the Agent for our example from needing to reset password or change password after login</li>
-      <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/51953148-bddc-476c-9368-4b62f4bf3d42" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
+      <li>Fill in the Agent's basic info and set the Agent's email address as <b>[name].smith@osticket.com</b> and click on <b>Set Password</b></li>
+
+ <p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-installation/assets/155266044/df203164-d376-40ba-a8bc-d636c70e73a7" height="80%" width="60%" />
+   </p>
+     
+  <li>Set the Agent's password to <b>Password1</b> and uncheck require reset/email on login to prevent our Agent from needing to reset password or change password after login</li>
     </ul>
     <li>Go the <b>Access</b> tab to set the Agent's <b>Primary Department</b> (Mandatory to create the Agent). <b>Extended Access</b> can also be added to the Agent in order to access additional Departments</li>
-    <ul>
-    <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/c57bca22-2622-4f01-88eb-bd699d1f12de" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-    </ul>
-    <li>OPTIONAL: Head to the <b>Teams</b> tab to assign the Agent to a Team</li>
+  <li>OPTIONAL: Head to the <b>Teams</b> tab to assign the Agent to a Team</li>
   </ul>
   
   <li><b>Users</b> (or Customers) are creators and owners of tickets and by using osTicket they are able to track the status of their tickets</li>
-  
-  <ul>
+   <ul>
     <li>In the <b>Agent Panel</b>, go to the <b>Users</b> tab and click on <b>Add User</b></li>
-    <ul>
-      <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/f08ec067-3a66-420e-bfaf-6a3003512bcb" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-    </ul>
-    <li>For this tutorial, we will be creating two new Users <b>Ken</b> and <b>Karen</b> and setting up usernames, emails, and passwords similar to our Agents.</li>
-    <ul>
-      <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/8eadff14-b483-4781-9679-80b252a092c4" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
-    </ul>
-  </ul>
+    <li>For this tutorial, we will be creating a new user and setting up the username, email, and password similar to our Agent. They will have a few tickets of varying priorities after we define our SLA's</li>
+   </ul>
   
-</ul>
+<p align="center">
+        <img src="https://github.com/joshuafinchCC/osticket-installation/assets/155266044/034bff65-ed3b-4696-9d61-2edf0f3ff55c" height="80%" width="60%" />
+   </p>
   
 </p>
 
