@@ -185,12 +185,7 @@ This tutorial covers some post-installation settings as well as some configurati
     <li>Equipment Request</li>
     <li>Password Reset</li>
   </ol>
-  <li>Example of entering credentials for the Help Topic "Equipment Request," click on <b>Add Topic</b> to create the Help Topic</li>
-  <ul>
-    <li><img src="https://github.com/ColtonTrauCC/post-install-config/assets/147654000/97777c9e-516c-4831-891b-9d65e9613ed0" height="80%" width="80%" alt="Disk Sanitization Steps"/></li>
   </ul>
-  
-</ul>
   
 </p>
 
@@ -198,9 +193,9 @@ This tutorial covers some post-installation settings as well as some configurati
 
 <h3>Further Reading and Manual</h3>
 <ul>
-  <li>This concludes to basics of osTicket configuration, but further information and research on the features of osTicket can be found in the official online doccumentation <a href= "https://docs.osticket.com/en/latest/index.html">here</a></li>
+  <li>These are just some of the most barebones ways of confirguring your osTicket system, but further information and research on the features of osTicket can be found in the official online doccumentation <a href= "https://docs.osticket.com/en/latest/index.html">here</a></li>
 </ul>
 
 <br/>
 
-<h3 align = "right">Next Tutorial - <a href = "https://github.com/ColtonTrauCC/ticket-lifecycle">osTicket: Ticket Lifecycle Examples</a></h3>
+<h3 align = "right">Next Tutorial - <a href = "">osTicket: Ticket Lifecycle Examples</a></h3>
